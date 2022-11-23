@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
 <SessionTemplate version="9.1.1.202209201235">
-    <baseApplication>com.fnfr.svt.applications.cmd</baseApplication>
-    <sessionProperties type="com.fnfr.svt.applications.cmd.CmdSessionProperties"/>
+    <baseApplication>com.fnfr.svt.applications.telnet</baseApplication>
+    <sessionProperties type="com.fnfr.svt.applications.telnet.documents.TelnetSessionProperties">
+        <ipAddress inherit="false">127.0.0.1</ipAddress>
+    </sessionProperties>
     <responseLibrary inherit="false">project://iTest_project/</responseLibrary>
     <formMapLibrary inherit="false">project://iTest_project/</formMapLibrary>
     <language>Python</language>
